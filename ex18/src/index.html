@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gigi School of Coding</title>
+  </head>
+
+  <body>
+    <h2>CatPhotoApp</h2>
+    <main>
+      <a href="#"
+        ><img src="https://bit.ly/3fUJAV1" alt="A cat lying on a tree."
+      /></a>
+      <p>
+        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
+        attack your ankles chase the red dot, hairball run catnip eat the grass
+        sniff.
+      </p>
+
+      <p>Things cats love:</p>
+      <ul>
+        <li>fish</li>
+        <li>water</li>
+        <li>toys</li>
+      </ul>
+
+      <p>Top 3 things cats hate:</p>
+      <ol>
+        <li>Competition</li>
+        <li>Loud noises</li>
+        <li>Tummy rubs</li>
+      </ol>
+
+      <form action="/submit-cat-photo">
+        <!-- empty field cannot be submitted -->
+        <input required type="text" placeholder="cat photo URL" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <div>
+        <label for="inside">
+          <input
+            id="inside"
+            type="radio"
+            name="inside-outside"
+            value="inside"
+            checked
+          />Inside
+        </label>
+        <label for="outside">
+          <input
+            id="outside"
+            type="radio"
+            name="inside-outside"
+            value="outside"
+          />Outside
+        </label>
+      </div>
+
+      <div>
+        <label for="Dog">
+          <input
+            id="Dog"
+            type="checkbox"
+            name="animal"
+            value="Dog"
+            checked
+          />Dog
+        </label>
+        <label for="Cat">
+          <input id="Cat" type="checkbox" name="animal" value="Cat" />Cat
+        </label>
+        <label for="Hamster">
+          <input
+            id="Hamster"
+            type="checkbox"
+            name="animal"
+            value="Hamster"
+          />Hamster
+        </label>
+        <label for="Bird">
+          <input id="Bird" type="checkbox" name="animal" value="Bird" />Bird
+        </label>
+        <label for="Fish">
+          <input id="Fish" type="checkbox" name="animal" value="Fish" />Fish
+        </label>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+</html>
